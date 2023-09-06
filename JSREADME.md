@@ -36,6 +36,8 @@ Before using this application, make sure you have the following:
 
 3. To generate the Organization Record by orgName report, enter the orgName (e.g., Test Account 1) of the organization.
 
+4. Click on the appropriate buttons to generate the reports.
+
 ##Troubleshooting
 
 If you encounter an "This organization does not exist." error, double-check the myShopifyDomain or orgName you entered and the JSON data to ensure it exists.
