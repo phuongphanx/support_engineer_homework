@@ -1,0 +1,84 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3C3A84;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333; 
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333; 
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #302E74; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 55%; 
+    margin: 40px auto; /* Center the container horizontally */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+    height: 600px; 
+}
+
+.result-container {
+    max-width: 100%; 
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left;
+}
+
+.result-container pre {
+    white-space: pre-wrap; /* Preserve line breaks */
+    word-wrap: break-word; /* Allow long words to break and wrap */
+}

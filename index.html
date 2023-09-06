@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Organization Reports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Shopify Organization Reports</h1>
+
+    <!-- Get Optimization Settings by myShopifyDomain -->
+    <h2>Optimization Settings</h2>
+    <label for="myShopifyDomain">Enter myShopifyDomain: </label>
+    <input type="text" id="myShopifyDomain" placeholder="e.g., test-account-1.myshopify.com">
+    <button id="getOptimizationSettingsButton">Get Optimization Settings</button>
+    <div id="result-container1" class="result-container">
+    <pre id="optimizationSettingsResult"></pre>
+    </div>
+
+    <!-- Organizations Sorted by Oldest to Newest -->
+    <h2>Organizations Sorted by Oldest to Newest</h2>
+    <button id="getOrganizationsSortedByDateButton">Get Organizations</button>
+    <div id="result-container2" class="result-container">
+    <ul id="organizationList"></ul>
+    </div>
+
+    <!-- Organizations with Status "Cancelled" -->
+    <h2>Organizations with Status "Cancelled"</h2>
+    <button id="getCancelledOrganizationsButton">Get Cancelled Organizations</button>
+    <div id="result-container3" class="result-container">
+    <ul id="cancelledOrganizationsList"></ul>
+    </div>
+
+    <!-- Get Organization Record by orgName -->
+    <h2>Organization Record by orgName</h2>
+    <label for="orgName">Enter orgName: </label>
+    <input type="text" id="orgName" placeholder="e.g., Test Account 1">
+    <button id="getOrganizationRecordButton">Get Organization Record</button>
+    <div id="result-container4" class="result-container">
+    <pre id="organizationRecordResult"></pre>
+    </div>
+
+    <script src="app-for-local.js"></script>
+</div>
+</body>
+</html>
